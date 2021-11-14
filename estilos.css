@@ -1,0 +1,82 @@
+html * {
+  margin: 0;
+  padding:0;
+}
+
+.bg{
+  background-image: url(../front-check-I/imagens/vitoria.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+
+#titulo{
+  font-family: Comfortaa, sans-serif;
+  font-style:oblique;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  text-align: center;
+  color: #3550e6;
+  background-color: #e4ade4;
+}
+
+
+#resumo{
+  color:rgb(3, 2, 2);
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  font-style:oblique; 
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px; 
+    
+}
+
+span{
+  background-color: wheat;
+}
+
+aside{
+    animation: blinker 3s infinite;
+}
+
+@keyframes blinker {
+  50%{
+    opacity: 0;
+  }
+}
+
+strong{
+  text-decoration: underline;
+  font-size: 24px;
+}
+
+#principal{
+  text-align: center;
+}
+
+.fatos{
+  color:white;
+  font-size: 24px;
+  font-family: Comfortaa, sans-serif;
+  
+  
+}
+
+h3,h4, h5{
+  color:white;
+  font-size: 20px;
+  font-family: Comfortaa, sans-serif;
+}
+
+#rodape{
+  text-align: center;
+  padding-top: 30px;
+  
+}
